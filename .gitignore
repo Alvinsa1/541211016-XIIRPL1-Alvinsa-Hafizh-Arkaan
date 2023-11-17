@@ -1,0 +1,43 @@
+# Direktori node_modules tidak perlu diikutsertakan dalam kontrol versi
+node_modules/
+
+# File log dan file debugging
+npm-debug.log
+yarn-error.log
+
+# Direktori yang dibuat saat menjalankan aplikasi
+pids/
+logs/
+results/
+
+# Direktori yang dibuat oleh editor atau IDE
+.vscode/
+.idea/
+
+# File konfigurasi lokal
+.env
+
+# File konfigurasi npm
+npm-debug.log
+.npm
+*.bak
+
+# File konfigurasi Yarn
+.yarn-integrity
+.yarn-metadata
+.yarn-unplugged
+.yarn/
+
+# Direktori yang mungkin dibuat oleh server
+build/
+
+# File sementara
+*.log
+*.tmp
+
+# Direktori distribusi
+dist/
+
+# Direktori yang dihasilkan oleh sistem operasi
+.DS_Store
+Thumbs.db
